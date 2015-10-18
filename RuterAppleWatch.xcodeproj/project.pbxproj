@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		683A32891BD2C4E700952495 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683A32881BD2C4E700952495 /* AppDelegate.swift */; };
+		683A328B1BD2C4E700952495 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683A328A1BD2C4E700952495 /* ViewController.swift */; };
+		683A328E1BD2C4E700952495 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683A328C1BD2C4E700952495 /* Main.storyboard */; };
+		683A32911BD2C4E700952495 /* RuterAppleWatch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 683A328F1BD2C4E700952495 /* RuterAppleWatch.xcdatamodeld */; };
+		683A32931BD2C4E700952495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 683A32921BD2C4E700952495 /* Assets.xcassets */; };
+		683A32961BD2C4E700952495 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683A32941BD2C4E700952495 /* LaunchScreen.storyboard */; };
+		683A32A11BD2C4E700952495 /* RuterAppleWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683A32A01BD2C4E700952495 /* RuterAppleWatchTests.swift */; };
+		683A32AC1BD2C4E700952495 /* RuterAppleWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683A32AB1BD2C4E700952495 /* RuterAppleWatchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		683A329D1BD2C4E700952495 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 683A327D1BD2C4E700952495 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 683A32841BD2C4E700952495;
+			remoteInfo = RuterAppleWatch;
+		};
+		683A32A81BD2C4E700952495 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 683A327D1BD2C4E700952495 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 683A32841BD2C4E700952495;
+			remoteInfo = RuterAppleWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		683A32851BD2C4E700952495 /* RuterAppleWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuterAppleWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		683A32881BD2C4E700952495 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		683A328A1BD2C4E700952495 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		683A328D1BD2C4E700952495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		683A32901BD2C4E700952495 /* RuterAppleWatch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RuterAppleWatch.xcdatamodel; sourceTree = "<group>"; };
+		683A32921BD2C4E700952495 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		683A32951BD2C4E700952495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		683A32971BD2C4E700952495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		683A329C1BD2C4E700952495 /* RuterAppleWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuterAppleWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		683A32A01BD2C4E700952495 /* RuterAppleWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuterAppleWatchTests.swift; sourceTree = "<group>"; };
+		683A32A21BD2C4E700952495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		683A32A71BD2C4E700952495 /* RuterAppleWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuterAppleWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		683A32AB1BD2C4E700952495 /* RuterAppleWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuterAppleWatchUITests.swift; sourceTree = "<group>"; };
+		683A32AD1BD2C4E700952495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		683A32821BD2C4E700952495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		683A32991BD2C4E700952495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		683A32A41BD2C4E700952495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		683A327C1BD2C4E700952495 = {
+			isa = PBXGroup;
+			children = (
+				683A32871BD2C4E700952495 /* RuterAppleWatch */,
+				683A329F1BD2C4E700952495 /* RuterAppleWatchTests */,
+				683A32AA1BD2C4E700952495 /* RuterAppleWatchUITests */,
+				683A32861BD2C4E700952495 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		683A32861BD2C4E700952495 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				683A32851BD2C4E700952495 /* RuterAppleWatch.app */,
+				683A329C1BD2C4E700952495 /* RuterAppleWatchTests.xctest */,
+				683A32A71BD2C4E700952495 /* RuterAppleWatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		683A32871BD2C4E700952495 /* RuterAppleWatch */ = {
+			isa = PBXGroup;
+			children = (
+				683A32881BD2C4E700952495 /* AppDelegate.swift */,
+				683A328A1BD2C4E700952495 /* ViewController.swift */,
+				683A328C1BD2C4E700952495 /* Main.storyboard */,
+				683A32921BD2C4E700952495 /* Assets.xcassets */,
+				683A32941BD2C4E700952495 /* LaunchScreen.storyboard */,
+				683A32971BD2C4E700952495 /* Info.plist */,
+				683A328F1BD2C4E700952495 /* RuterAppleWatch.xcdatamodeld */,
+			);
+			path = RuterAppleWatch;
+			sourceTree = "<group>";
+		};
+		683A329F1BD2C4E700952495 /* RuterAppleWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				683A32A01BD2C4E700952495 /* RuterAppleWatchTests.swift */,
+				683A32A21BD2C4E700952495 /* Info.plist */,
+			);
+			path = RuterAppleWatchTests;
+			sourceTree = "<group>";
+		};
+		683A32AA1BD2C4E700952495 /* RuterAppleWatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				683A32AB1BD2C4E700952495 /* RuterAppleWatchUITests.swift */,
+				683A32AD1BD2C4E700952495 /* Info.plist */,
+			);
+			path = RuterAppleWatchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		683A32841BD2C4E700952495 /* RuterAppleWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 683A32B01BD2C4E700952495 /* Build configuration list for PBXNativeTarget "RuterAppleWatch" */;
+			buildPhases = (
+				683A32811BD2C4E700952495 /* Sources */,
+				683A32821BD2C4E700952495 /* Frameworks */,
+				683A32831BD2C4E700952495 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RuterAppleWatch;
+			productName = RuterAppleWatch;
+			productReference = 683A32851BD2C4E700952495 /* RuterAppleWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		683A329B1BD2C4E700952495 /* RuterAppleWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 683A32B31BD2C4E700952495 /* Build configuration list for PBXNativeTarget "RuterAppleWatchTests" */;
+			buildPhases = (
+				683A32981BD2C4E700952495 /* Sources */,
+				683A32991BD2C4E700952495 /* Frameworks */,
+				683A329A1BD2C4E700952495 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				683A329E1BD2C4E700952495 /* PBXTargetDependency */,
+			);
+			name = RuterAppleWatchTests;
+			productName = RuterAppleWatchTests;
+			productReference = 683A329C1BD2C4E700952495 /* RuterAppleWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		683A32A61BD2C4E700952495 /* RuterAppleWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 683A32B61BD2C4E700952495 /* Build configuration list for PBXNativeTarget "RuterAppleWatchUITests" */;
+			buildPhases = (
+				683A32A31BD2C4E700952495 /* Sources */,
+				683A32A41BD2C4E700952495 /* Frameworks */,
+				683A32A51BD2C4E700952495 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				683A32A91BD2C4E700952495 /* PBXTargetDependency */,
+			);
+			name = RuterAppleWatchUITests;
+			productName = RuterAppleWatchUITests;
+			productReference = 683A32A71BD2C4E700952495 /* RuterAppleWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		683A327D1BD2C4E700952495 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Øyvind Midtbø";
+				TargetAttributes = {
+					683A32841BD2C4E700952495 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 36E7AZJF68;
+					};
+					683A329B1BD2C4E700952495 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 683A32841BD2C4E700952495;
+					};
+					683A32A61BD2C4E700952495 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 683A32841BD2C4E700952495;
+					};
+				};
+			};
+			buildConfigurationList = 683A32801BD2C4E700952495 /* Build configuration list for PBXProject "RuterAppleWatch" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 683A327C1BD2C4E700952495;
+			productRefGroup = 683A32861BD2C4E700952495 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				683A32841BD2C4E700952495 /* RuterAppleWatch */,
+				683A329B1BD2C4E700952495 /* RuterAppleWatchTests */,
+				683A32A61BD2C4E700952495 /* RuterAppleWatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		683A32831BD2C4E700952495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683A32961BD2C4E700952495 /* LaunchScreen.storyboard in Resources */,
+				683A32931BD2C4E700952495 /* Assets.xcassets in Resources */,
+				683A328E1BD2C4E700952495 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		683A329A1BD2C4E700952495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		683A32A51BD2C4E700952495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		683A32811BD2C4E700952495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683A32911BD2C4E700952495 /* RuterAppleWatch.xcdatamodeld in Sources */,
+				683A328B1BD2C4E700952495 /* ViewController.swift in Sources */,
+				683A32891BD2C4E700952495 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		683A32981BD2C4E700952495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683A32A11BD2C4E700952495 /* RuterAppleWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		683A32A31BD2C4E700952495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683A32AC1BD2C4E700952495 /* RuterAppleWatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		683A329E1BD2C4E700952495 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 683A32841BD2C4E700952495 /* RuterAppleWatch */;
+			targetProxy = 683A329D1BD2C4E700952495 /* PBXContainerItemProxy */;
+		};
+		683A32A91BD2C4E700952495 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 683A32841BD2C4E700952495 /* RuterAppleWatch */;
+			targetProxy = 683A32A81BD2C4E700952495 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		683A328C1BD2C4E700952495 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				683A328D1BD2C4E700952495 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		683A32941BD2C4E700952495 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				683A32951BD2C4E700952495 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		683A32AE1BD2C4E700952495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		683A32AF1BD2C4E700952495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		683A32B11BD2C4E700952495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = RuterAppleWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.oyvindmidtbo.RuterAppleWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		683A32B21BD2C4E700952495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = RuterAppleWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.oyvindmidtbo.RuterAppleWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		683A32B41BD2C4E700952495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RuterAppleWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.oyvindmidtbo.RuterAppleWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RuterAppleWatch.app/RuterAppleWatch";
+			};
+			name = Debug;
+		};
+		683A32B51BD2C4E700952495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RuterAppleWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.oyvindmidtbo.RuterAppleWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RuterAppleWatch.app/RuterAppleWatch";
+			};
+			name = Release;
+		};
+		683A32B71BD2C4E700952495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RuterAppleWatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.oyvindmidtbo.RuterAppleWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RuterAppleWatch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		683A32B81BD2C4E700952495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RuterAppleWatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.oyvindmidtbo.RuterAppleWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RuterAppleWatch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		683A32801BD2C4E700952495 /* Build configuration list for PBXProject "RuterAppleWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683A32AE1BD2C4E700952495 /* Debug */,
+				683A32AF1BD2C4E700952495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		683A32B01BD2C4E700952495 /* Build configuration list for PBXNativeTarget "RuterAppleWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683A32B11BD2C4E700952495 /* Debug */,
+				683A32B21BD2C4E700952495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		683A32B31BD2C4E700952495 /* Build configuration list for PBXNativeTarget "RuterAppleWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683A32B41BD2C4E700952495 /* Debug */,
+				683A32B51BD2C4E700952495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		683A32B61BD2C4E700952495 /* Build configuration list for PBXNativeTarget "RuterAppleWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683A32B71BD2C4E700952495 /* Debug */,
+				683A32B81BD2C4E700952495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		683A328F1BD2C4E700952495 /* RuterAppleWatch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				683A32901BD2C4E700952495 /* RuterAppleWatch.xcdatamodel */,
+			);
+			currentVersion = 683A32901BD2C4E700952495 /* RuterAppleWatch.xcdatamodel */;
+			path = RuterAppleWatch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 683A327D1BD2C4E700952495 /* Project object */;
+}
