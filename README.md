@@ -1,0 +1,1 @@
+En Apple Watch-app for å se busstider. Benytter seg av Ruter sitt API.
